@@ -1,5 +1,3 @@
-Absolutely! Here's the complete README.md content in markdown format for you to copy:
-
 ## codeowners-generator
 
 **codeowners-generator** is a Go program that automatically generates a `CODEOWNERS` file for a GitHub repository based on the top contributors for a specified time period.
