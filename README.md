@@ -1,4 +1,4 @@
-## codeowners-generator
+## Codeowners Generator
 
 **codeowners-generator** is a Go program that automatically generates a `CODEOWNERS` file for a GitHub repository based on the top contributors for a specified time period.
 
@@ -48,7 +48,14 @@ codeowners-generator \
 
 **2. Environment Variables:**
 
-Configure the above environment variables in your environment or a `.env` file to avoid exposing your token in the command line.
+| Environment Variable | Description |
+|---|---|
+| `GITHUB_SERVER_URL` | GitHub server URL (defaults to `https://api.github.com`) |
+| `ORGANIZATION_NAME` | GitHub organization name |
+| `REPOSITORY_NAME` | GitHub repository name |
+| `GITHUB_TOKEN` | GitHub personal access token with `repo` permission |
+| `DURATION` | Time period for contributor analysis (e.g., `30d` for 30 days) |
+| `CODE_REVIEWERS_COUNT` | Number of top contributors to include as code owners |
 
 **3. Behavior:**
 
