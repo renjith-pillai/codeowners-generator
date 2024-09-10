@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/your-username/codeowners-generator/pkg/github"
-	"github.com/your-username/codeowners-generator/pkg/utils"
+	"github.com/vrenjith/codeowners-generator/pkg/github"
+	"github.com/vrenjith/codeowners-generator/pkg/utils"
 )
 
 func main() {
